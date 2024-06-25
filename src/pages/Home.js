@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-const API_KEY = pri_22cb863ca1664b99a78f30d82279868a;
+const API_KEY = process.env.REACT_APP_BEST_TIME_API_KEY;
 
 function Home() {
   const [options, setOptions] = useState({
